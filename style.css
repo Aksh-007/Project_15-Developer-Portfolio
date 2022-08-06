@@ -289,7 +289,7 @@ body {
    bottom: 30px;
 }
 .card-image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width:600px;
     height: 60vh;
     background-color: var(--bg-dark-light-2);
