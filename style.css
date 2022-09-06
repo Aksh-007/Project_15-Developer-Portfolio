@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 :root {
     --bg-dark: #111111;
     --bg-dark-light: #181818;
@@ -19,27 +20,28 @@
 body {
     background-color: var(--bg-dark);
     font-family: "Montserrat", sans-serif;
-    color: var(--white);    
+    color: var(--white);
 }
 
 /* =============================================== navbar section =========================================== */
-.container{
+.container {
     width: 100%;
 }
 
-.navbar-container{
+.navbar-container {
     height: 11vh;
     display: flex;
     justify-content: space-between;
 
 }
 
-.navbar-logo img{
+.navbar-logo img {
     height: 4.5vh;
     margin-top: 30px;
     margin-left: 120px;
 }
-.navbar-items{
+
+.navbar-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,58 +51,60 @@ body {
     margin-right: 120px;
     font-size: 0.9rem;
     margin-top: 20px;
-  
-    
+
+
 }
-.item{
+
+.item {
 
     cursor: pointer;
 }
 
 /* ================================= About Section ========================================================= */
-.about-container{
+.about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
 
-.about-left img{
+.about-left img {
     height: 85vh;
-   margin-top: -45px;
+    margin-top: -45px;
 }
 
-.about-right{
+.about-right {
     height: 70vh;
     width: 40%;
 }
 
-.about-right h5{
+.about-right h5 {
     margin-top: 110px;
     color: var(--primary-light);
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 
-.about-right h2{
+.about-right h2 {
     color: var(--white);
     font-size: 4.6rem;
 }
 
-.about-right p{
-        font-size: 1.3rem;
-        margin-top: 10px;
+.about-right p {
+    font-size: 1.3rem;
+    margin-top: 10px;
 }
 
-.about-button button{
+.about-button button {
     margin-top: 50px;
-    background-color:var(--primary-light);
+    background-color: var(--primary-light);
     padding: 15px 50px;
     color: var(--white);
     font-size: 1rem;
     border: none;
     cursor: pointer;
 }
-.box{ 
+
+.box {
     position: absolute;
     background-color: var(--bg-dark-light);
     width: 60rem;
@@ -112,7 +116,7 @@ body {
 
 /* ================================================ UI Design Section======================================== */
 
-.service-cards{
+.service-cards {
     display: flex;
     gap: 20px;
     height: 50vh;
@@ -121,35 +125,29 @@ body {
     align-items: center;
 }
 
-.service-card{
-    height:49vh;
+.service-card {
+    height: 49vh;
     width: 20.5%;
-    background-color:var( --bg-dark-light-2);
+    background-color: var(--bg-dark-light-2);
 }
 
-.logo img{
+.logo img {
     /* 1st - top 2nd-right 3rd-bottom 4th-left  */
-    padding: 40px 10px 20px 40px;  
+    padding: 40px 10px 20px 40px;
 }
 
-.service-card h1{
-    padding: 0px 10px 20px 40px; 
+.service-card h1 {
+    padding: 0px 10px 20px 40px;
     /* font-size: 2.5rem; */
 }
 
-.service-card p{
-    padding: 0px 10px 20px 40px; 
+.service-card p {
+    padding: 0px 10px 20px 40px;
     font-size: 1.3rem;
 }
 
-.service-btn button{
-    /* background-color: transparent;
-    color: var(--primary-light);
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    cursor: pointer; */
-    /* text-align: center; */
-   
+.service-btn button {
+
     color: var(--primary-light);
     background-color: transparent;
     border: none;
@@ -159,32 +157,34 @@ body {
     text-transform: uppercase;
     font-weight: 400;
 }
-.btn{
-       margin-left: 40px;
+
+.btn {
+    margin-left: 40px;
 }
-.service-btn{
+
+.service-btn {
     margin-top: -10px;
 }
 
-.service-btn i{
+.service-btn i {
     color: var(--primary-light);
     margin-left: 10px;
 }
 
-.btn.product{
-    color:var(--white);
-    
+.btn.product {
+    color: var(--white);
+
 }
 
-.service-card.card{
-   background-color: var( --primary);
+.service-card.card {
+    background-color: var(--primary);
 }
 
 .service-cards .service-card:nth-child(2) .service-btn i {
     color: var(--white);
 }
 
-.service-stats{
+.service-stats {
     margin-top: 40px;
     height: 50vh;
     display: flex;
@@ -196,19 +196,21 @@ body {
     gap: 40px;
 }
 
-.left h1{
+.left h1 {
     font-size: 7rem;
     color: var(--primary-light);
     font-weight: 1000;
 }
-.left p{
+
+.left p {
     font-size: 2rem;
     margin-top: -10px;
     font-weight: 600;
     position: relative;
     right: 50px;
 }
-.right{
+
+.right {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -220,87 +222,91 @@ body {
     margin-right: 120px;
 }
 
-.right .card-service{
+.right .card-service {
     height: 18vh;
     width: 300px;
     text-align: center;
-    background-color: var( --bg-dark-light-2);
+    background-color: var(--bg-dark-light-2);
 
 
 }
 
-.card-service h1{
+.card-service h1 {
     font-size: 4rem;
     color: var(--primary-light);
     margin-top: 15px;
-   
+
 }
 
-.card-service p{
+.card-service p {
     color: var(--text-gray);
 }
 
 
 /* ======================================= Feature Project Section================================== */
 
-.feature-container{
+.feature-container {
     margin-top: 150px;
 }
 
-.feature-header{
+.feature-header {
     margin-left: 150px;
 }
 
-.feature-header h1{
+.feature-header h1 {
     font-size: 2.5rem;
     font-weight: 1000;
     padding: 10px 10px;
 }
-.feature-header p{
+
+.feature-header p {
     padding: 0px 10px;
     color: var(--text-gray);
 }
 
-.feature-btn{
+.feature-btn {
     position: relative;
     left: 1043px;
-    background-color:var( --primary-light);
+    background-color: var(--primary-light);
     padding: 20px 50px;
     bottom: 70px;
     cursor: pointer;
 }
 
 
-.features-cards-container{
+.features-cards-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
-.cards-container .card-image img{
-    width:520px;
+
+.cards-container .card-image img {
+    width: 35vw;
     align-items: center;
     margin-top: 80px;
     margin-left: 40px;
 }
-.card-image .card-3{
-   position: relative;
-   bottom: 30px;
+
+.card-image .card-3 {
+    position: relative;
+    bottom: 30px;
 }
-.card-image{
-    /* border: 2px solid red; */
-    width:600px;
+
+.card-image {
+    width: 40vw;
     height: 60vh;
     background-color: var(--bg-dark-light-2);
 }
 
-.cards-container h3{
+.cards-container h3 {
     padding: 15px 0px;
     font-size: 1.7rem;
-    
+
 }
-.card-footer-container button{
+
+.card-footer-container button {
     text-transform: uppercase;
     font-size: 1.1rem;
     font-weight: 500;
@@ -308,6 +314,7 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
+
 .cards-container span {
     color: var(--primary-light);
     display: flex;
@@ -318,11 +325,11 @@ body {
 
 /* ============================================= Contact Section ================================== */
 
-.contact-container{
+.contact-container {
     margin-top: 100px;
 }
 
-.contact-card{
+.contact-card {
     border: 2px solid black;
     height: 50vh;
     display: flex;
@@ -331,47 +338,49 @@ body {
     background-color: var(--bg-dark-light-2);
 }
 
-.contact-left h1{
+.contact-left h1 {
     font-size: 3rem;
     margin-top: 80px;
-    padding: 20px 40px ;
+    padding: 20px 40px;
 }
 
-.contact-left p{
-   padding-right: 40px ;
-   padding-left: 40px;
+.contact-left p {
+    padding-right: 40px;
+    padding-left: 40px;
 
 }
-.contact-right{
+
+.contact-right {
     margin-top: 150px;
     margin-left: 180px;
 }
-.contact-btn{
-   padding:20px 60px ;
-   font-size: 1.2rem;
-   text-transform: uppercase;
-   background-color: var(--primary-light);
-   color: var(--white);
-   border: none;
-   cursor: pointer;
+
+.contact-btn {
+    padding: 20px 60px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: var(--primary-light);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
 }
 
 /* =========================================== Footr section============================================== */
-.contact-footer-container{
+.contact-footer-container {
     height: 10vh;
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40px;
+    gap: 40px;
     list-style-type: none;
     text-transform: uppercase;
     font-size: 0.9rem;
-    
+
 }
 
 
-.footer-container{
+.footer-container {
     border: 2px solid black;
     display: flex;
     height: 22vh;
@@ -379,11 +388,11 @@ body {
 }
 
 
-.footer-logo img{
+.footer-logo img {
     height: 40px;
 }
 
-.footer-logo{
+.footer-logo {
 
     margin-top: 50PX;
     margin-left: 200px;
@@ -392,14 +401,155 @@ body {
 
 
 
-.social-icons{
+.social-icons {
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     gap: 50px;
     margin-left: 400px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .navbar-logo img {
+        border: 2px solid black;
+        margin-left: auto;
+        padding-left: 3rem;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+
+    .about-container {
+        display: block;
+
+
+    }
+
+    .about-left img {
+        width: 100vw;
+        margin: auto;
+
+    }
+
+    .about-right {
+
+        width: 100vw;
+        height: auto;
+        margin: auto;
+        background-color: #111111;
+        text-align: center;
+    }
+
+    .service-container {
+        margin-top: 30rem;
+        position: relative;
+        display: block;
+        height: 300vh;
+
+    }
+
+    .service-stats {
+        display: block;
+        margin-top: 55rem;
+        width: 90vw;
+    }
+
+    .left {
+        width: 50vw;
+        margin-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    .left p {
+        text-align: center;
+        margin: auto;
+        width: 60vw;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .service-cards {
+        text-align: center;
+        display: block;
+        width: 100vw;
+        margin: auto;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .service-card {
+        display: block;
+        width: 70vw;
+        height: 55vh;
+        margin-bottom: 2rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .feature-header {
+        height: 30vh;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .features-cards-container {
+        display: block;
+
+    }
+
+
+    .cards-container .card-image img {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .card-image {
+        width: 100vw;
+        height: 45vh;
+        background-color: var(--bg-dark-light-2);
+    }
+
+    .contact-card {
+        text-align: center;
+        width: 80vw;
+        margin: auto;
+        height: 60vh;
+    }
+
+    .contact-left h1 {
+        font-size: 1.8rem;
+        width: 80vw;
+
+    }
+
+    .contact-left p {
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
+
+    .footer-container {
+        display: block;
+        height: 30vh;
+    }
+
+    .social-icons {
+        padding-top: 2rem;
+        display: flex;
+        margin: auto;
+        
+    }
+    .social-icons img{
+        padding: 0rem 2rem;
+        margin: auto;
+    }
 
 
 
@@ -409,3 +559,26 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
