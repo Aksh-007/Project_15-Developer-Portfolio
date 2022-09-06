@@ -132,13 +132,11 @@ body {
 }
 
 .logo img {
-    /* 1st - top 2nd-right 3rd-bottom 4th-left  */
     padding: 40px 10px 20px 40px;
 }
 
 .service-card h1 {
     padding: 0px 10px 20px 40px;
-    /* font-size: 2.5rem; */
 }
 
 .service-card p {
@@ -415,7 +413,6 @@ body {
     }
 
     .navbar-logo img {
-        border: 2px solid black;
         margin-left: auto;
         padding-left: 3rem;
     }
